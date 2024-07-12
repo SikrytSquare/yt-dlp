@@ -1957,6 +1957,11 @@ from .stageplus import StagePlusVODConcertIE
 from .stanfordoc import StanfordOpenClassroomIE
 from .startrek import StarTrekIE
 from .startv import StarTVIE
+from .stasyq import (
+    StasyQIE,
+    StasyQPlaylistIE,
+    StasyQBackstageIE,
+)
 from .steam import (
     SteamCommunityBroadcastIE,
     SteamIE,
